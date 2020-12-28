@@ -1,0 +1,635 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: black;
+}
+
+body {
+    background-color: #fff5ee;
+}
+ /* inizio prima schermata */
+.fisso {
+    height: 100vh;
+    width: 50vw;
+    background-color: #232323;
+
+    position: fixed;
+    left: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto_cv {
+    max-height: 70%;
+    max-width: 50%;
+}
+
+.menu {
+    height: 15vh;
+    width: 50vw;
+
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+   background-color: black;
+   border: none;
+   color: white;
+   padding: 5% 5%;
+   cursor: pointer;
+   font-size: 100%;
+}
+
+.btn:hover {
+  background-color: white;
+  color: black;
+}
+
+span {
+    margin: auto;
+}
+
+span a {
+    font-size: 120%;
+    text-decoration: none;
+}
+
+.nome_professione {
+    height: 30vh;
+    width: 50vw;
+}
+
+.Mio_nome {
+    height: 15vh;
+    width: 50vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Mia_professione {
+    height: 15vh;
+    width: 50vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#font1 {
+    font-family: 'Castoro', serif;
+    font-size: 250%;
+}
+#font2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 150%;
+ }
+
+.descrizione {
+    height: 55vh;
+    width: 50vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about_me {
+    height: 50%;
+    width: 80%;
+}
+
+.titolo_Descrizione {
+    height: 30%;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+}
+
+.titolo_Descrizione p {
+    font-family: 'Castoro', serif;
+    font-size: 140%;
+}
+
+.testo_descrizione {
+    height: 80%;
+    width: 100%;
+}
+
+.testo_descrizione p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 120%;
+}
+/* fine prima schermata */
+
+/* inizio seconda schermata */
+.formazione_scolastica {
+    height: 100vh;
+    width: 50vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testo_formazioneScolastica {
+    height: 50%;
+    width: 50%;
+}
+
+.titolo_formazioneScolastica {
+    height: 20%;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+}
+
+.titolo_formazioneScolastica p {
+    font-family: 'Castoro', serif;
+    font-size: 140%;
+}
+
+.s2i_scuola {
+    height: 40%;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+.s2i_scuola p {
+    margin-top: 3.5%;
+    margin-left: 3.5%;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+}
+/* fine seconda schermatas */
+
+/* inizio terza schermata */
+.contatti {
+    height: 100vh;
+    width: 50vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div_contatti {
+    height: auto;
+    width: 50%;
+}
+
+.titolo_contatti {
+    height: 20%;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+}
+
+.titolo_contatti p {
+    font-family: 'Castoro', serif;
+    font-size: 140%;
+}
+
+.testo_contatti {
+    height: auto;
+    width: 100%;
+}
+
+.testo_contatti p {
+    margin-top: 3.5%;
+    margin-left: 3.5%;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+}
+/* fine terza schermata */
+
+
+@media screen and (min-device-width: 0px) and (max-device-width: 800px) {
+
+    .fisso {
+        height: 50vh;
+        width: 100vw;
+
+        position: static;
+        left: 0%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .foto {
+        height: 70%;
+        width: 50%;
+    }
+
+    .menu {
+        height: 15vh;
+        width: 100vw;
+
+        display: flex;
+        align-items: center;
+    }
+
+    .btn {
+       background-color: black;
+       border: none;
+       color: white;
+       padding: 5% 5%;
+       cursor: pointer;
+       font-size: 100%;
+    }
+
+    .btn:hover {
+      background-color: white;
+      color: black;
+    }
+
+    span {
+        margin: auto;
+    }
+
+    span a {
+        font-size: 110%;
+        text-decoration: none;
+    }
+
+    .nome_professione {
+        height: 30vh;
+        width: 100vw;
+
+        margin: auto;
+    }
+
+    .Mio_nome {
+        height: 15vh;
+        width: 100vw;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Mia_professione {
+        height: 15vh;
+        width: 100vw;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #font1 {
+        font-family: 'Castoro', serif;
+        font-size: 150%;
+    }
+    #font2 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 100%;
+     }
+
+    .descrizione {
+        height: 55vh;
+        width: 100vw;
+        margin: auto;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about_me {
+        height: 90%;
+        width: 70%;
+    }
+
+    .titolo_Descrizione {
+        height: 20%;
+        width: auto;
+
+        display: flex;
+        align-items: center;
+    }
+
+    .titolo_Descrizione p {
+        font-family: 'Castoro', serif;
+        font-size: 140%;
+    }
+
+    .testo_descrizione {
+        height: 80%;
+        width: auto;
+    }
+
+    .testo_descrizione p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 110%;
+    }
+    /* fine prima schermata */
+
+    /* inizio seconda schermata */
+    .formazione_scolastica {
+        height: 100vh;
+        width: 100vw;
+        margin: auto;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .testo_formazioneScolastica {
+        height: 80%;
+        width: auto;
+    }
+
+    .titolo_formazioneScolastica {
+        height: 20%;
+        width: 100%;
+
+        display: flex;
+        align-items: center;
+    }
+
+    .titolo_formazioneScolastica p {
+        font-family: 'Castoro', serif;
+        font-size: 125%;
+    }
+
+    .s2i_scuola {
+        height: 40%;
+        width: auto;
+        border-bottom: 1px solid black;
+    }
+
+    .s2i_scuola p {
+        margin-top: 3.5%;
+        margin-left: 3.5%;
+
+        font-family: 'Roboto', sans-serif;
+        font-size: 100%;
+    }
+    /* fine seconda schermatas */
+
+    /* inizio terza schermata */
+    .contatti {
+        height: 100vh;
+        width: 100vw;
+        margin: auto;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .div_contatti {
+        height: auto;
+        width: 80%;
+    }
+
+    .titolo_contatti {
+        height: 20%;
+        width: 100%;
+
+        display: flex;
+        align-items: center;
+    }
+
+    .titolo_contatti p {
+        font-family: 'Castoro', serif;
+        font-size: 140%;
+    }
+
+    .testo_contatti {
+        height: auto;
+        width: 100%;
+    }
+
+    .testo_contatti p {
+        margin-top: 3.5%;
+        margin-left: 3.5%;
+
+        font-family: 'Roboto', sans-serif;
+        font-size: 100%;
+    }
+}
+
+@media screen and (min-device-width: 801px) and (max-device-width: 1300px) {
+    /* inizio prima schermata */
+   .fisso {
+       height: 100vh;
+       width: 50vw;
+
+       position: fixed;
+       left: 50%;
+
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+
+   .foto {
+       height: 70%;
+       width: 50%;
+       background-color: lightcoral;
+   }
+
+   .menu {
+       height: 15vh;
+       width: 50vw;
+
+       display: flex;
+       align-items: center;
+   }
+
+   .btn {
+      background-color: black;
+      border: none;
+      color: white;
+      padding: 5% 5%;
+      cursor: pointer;
+      font-size: 100%;
+   }
+
+   .btn:hover {
+     background-color: white;
+     color: black;
+   }
+
+   span {
+       margin: auto;
+   }
+
+   span a {
+       font-size: 120%;
+       text-decoration: none;
+   }
+
+   .nome_professione {
+       height: 30vh;
+       width: 50vw;
+   }
+
+   .Mio_nome {
+       height: 15vh;
+       width: 50vw;
+
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+
+   .Mia_professione {
+       height: 15vh;
+       width: 50vw;
+
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+
+   #font1 {
+       font-family: 'Castoro', serif;
+       font-size: 250%;
+   }
+   #font2 {
+       font-family: 'Roboto', sans-serif;
+       font-size: 150%;
+    }
+
+   .descrizione {
+       height: 55vh;
+       width: 50vw;
+
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+
+   .about_me {
+       height: 80%;
+       width: 80%;
+   }
+
+   .titolo_Descrizione {
+       height: 30%;
+       width: 100%;
+
+       display: flex;
+       align-items: center;
+   }
+
+   .titolo_Descrizione p {
+       font-family: 'Castoro', serif;
+       font-size: 140%;
+   }
+
+   .testo_descrizione {
+       height: 70%;
+       width: auto;
+   }
+
+   .testo_descrizione p {
+       font-family: 'Roboto', sans-serif;
+       font-size: 120%;
+   }
+   /* fine prima schermata */
+
+   /* inizio seconda schermata */
+   .formazione_scolastica {
+       height: 100vh;
+       width: 50vw;
+
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+
+   .testo_formazioneScolastica {
+       height: 70%;
+       width: auto;
+   }
+
+   .titolo_formazioneScolastica {
+       height: 20%;
+       width: 100%;
+
+       display: flex;
+       align-items: center;
+   }
+
+   .titolo_formazioneScolastica p {
+       font-family: 'Castoro', serif;
+       font-size: 135%;
+   }
+
+   .s2i_scuola {
+       height: 40%;
+       width: 100%;
+       border-bottom: 1px solid black;
+   }
+
+   .s2i_scuola p {
+       margin-top: 3.5%;
+       margin-left: 3.5%;
+
+       font-family: 'Roboto', sans-serif;
+       font-size: 100%;
+   }
+   /* fine seconda schermatas */
+
+   /* inizio terza schermata */
+   .contatti {
+       height: 100vh;
+       width: 50vw;
+
+       display: flex;
+       align-items: center;
+       justify-content: center;
+   }
+
+   .div_contatti {
+       height: auto;
+       width: 90%;
+   }
+
+   .titolo_contatti {
+       height: 20%;
+       width: 100%;
+
+       display: flex;
+       align-items: center;
+   }
+
+   .titolo_contatti p {
+       font-family: 'Castoro', serif;
+       font-size: 140%;
+   }
+
+   .testo_contatti {
+       height: auto;
+       width: 100%;
+   }
+
+   .testo_contatti p {
+       margin-top: 3.5%;
+       margin-left: 3.5%;
+
+       font-family: 'Roboto', sans-serif;
+       font-size: 100%;
+   }
+   /* fine terza schermata */
+}
